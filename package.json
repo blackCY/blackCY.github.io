@@ -1,0 +1,29 @@
+{
+  "name": "blackcy.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "vuepress": "1.9.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackCY/blackCY.github.io.git"
+  },
+  "keywords": [],
+  "author": "blackCY <dllnacy@163.com> (https://github.com/blackCY)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blackCY/blackCY.github.io/issues"
+  },
+  "homepage": "https://github.com/blackCY/blackCY.github.io#readme"
+}
